@@ -1,0 +1,25 @@
+map obstSorten = {
+	`Äpfel` : 0,
+	`Erdbeeren` : 0,
+	`Bananen ` : 0,
+};
+map gemueseSorten = {
+	`Gurken` : 0,
+	`Tomaten` : 0,
+	` Zucchini ` : 0,
+};
+
+
+
+print(“============.===========“);
+print(“==.=== Ertrags Tabelle =====“);
+print(“=======    Menue    ====.===“);
+print(“===.==  1.Obst Sorten  =====“);
+print(“=.==  2.Gemuese Sorten  ==.=“);
+print(“============.===========“);
+menueOption = int(input(“Bitte wählen Sie einen Menue Punkt 1-2));
+switch (menueOption) {
+	case 1 :
+		obstSorte = string(input(“Bitte Obst Sorte Angeben)) int(input(Bitte Anzahlanpassen));
+
+
